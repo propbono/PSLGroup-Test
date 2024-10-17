@@ -1,9 +1,9 @@
 // Implementing Fisher-Yates shuffle algorithm
 // Based on Mike Bostock implementation
 export const shuffle = (array) => {
-  var copy = [],
-    n = array.length,
-    i;
+  const copy = [];
+  let n = array.length;
+  let i;
 
   // While there remain elements to shuffle…
   while (n) {
